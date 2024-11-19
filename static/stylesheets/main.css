@@ -10,40 +10,12 @@ body {
 header {
 	display: flex;
 	justify-content: space-between;
-	padding: 5px;
+	padding: 5px 20px;
 	position: fixed;
 	top: 0;
 	left: 0;
 	right: 0;
+	height: 32px;
 	line-height: 32px;
 }
-
-.header-logo {
-	width: 32px;
-	height: 32px;
-}
-
-.navigation-anchor {
-	margin: 0 5px;
-}
-
-.full-height-block {
-	height: 100vh;
-	display: grid;
-	grid-auto-flow: column;
-	align-content: center;
-	margin-left: 300px;
-	margin-right: 300px;
-}
-
-.grid-content-left {
-	max-width: 600px;
-	justify-self: start;
-	align-self: center;
-}
-
-.grid-content-right {
-	justify-self: end;
-}
-
 

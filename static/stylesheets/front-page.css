@@ -1,0 +1,20 @@
+.full-height-block {
+	height: 100vh;
+	display: grid;
+	grid-auto-flow: column;
+	align-content: center;
+	margin-left: 300px;
+	margin-right: 300px;
+}
+
+.grid-content-left {
+	max-width: 600px;
+	justify-self: start;
+	align-self: center;
+}
+
+.grid-content-right {
+	justify-self: end;
+	align-self: center;
+}
+

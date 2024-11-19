@@ -1,0 +1,19 @@
+.header-logo {
+	width: 32px;
+	height: 32px;
+}
+
+.navigation-block {
+	display: flex;
+}
+
+.navigation-anchor {
+	margin: 0 10px;
+	line-height: 32px;
+}
+
+.header-social-logo {
+	align-self: center;
+	width: 24px;
+	height: 24px;
+}
