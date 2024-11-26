@@ -3,19 +3,7 @@
 }
 
 body {
-	margin-top: 0;
-	margin-bottom: 0;
+	margin: 0 20px;
 }
 
-header {
-	display: flex;
-	justify-content: space-between;
-	padding: 5px 20px;
-	position: fixed;
-	top: 0;
-	left: 0;
-	right: 0;
-	height: 32px;
-	line-height: 32px;
-}
 
