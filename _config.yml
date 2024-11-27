@@ -4,4 +4,6 @@ description: >-
   Die Editor-Kriege, 2024.
 baseurl: "/editor-wars"
 url: "zhengliw.github.io"
+exclude:
+  - res/
 
