@@ -3,12 +3,12 @@
 	padding: 0 20px;
 	display: flex;
 	align-items: center;
+	justify-content: center;
 }
 
 .row-layout {
 	display: flex;
 	justify-content: space-between;
-	margin: auto;
 	max-width: 1000px;
 
 }
@@ -16,7 +16,6 @@
 @media (max-width: 1000px) {
 	.row-layout {
 		flex-direction: column; 
-		justify-content: center;
 		align-items: unset;
 	}
 }
