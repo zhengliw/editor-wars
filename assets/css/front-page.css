@@ -1,16 +1,20 @@
-.full-height-block {
+.spacing-block {
 	height: 100vh;
+	padding: 0 20px;
+	display: flex;
+	align-items: center;
+}
+
+.row-layout {
 	display: flex;
 	justify-content: space-between;
-	align-items: center;
-	margin-left: auto;
-	margin-right: auto;
+	margin: auto;
 	max-width: 1000px;
-	padding: 0 20px;
+
 }
 
 @media (max-width: 1000px) {
-	.full-height-block {
+	.row-layout {
 		flex-direction: column; 
 		justify-content: center;
 		align-items: unset;
