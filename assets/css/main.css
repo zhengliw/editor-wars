@@ -9,4 +9,7 @@ body {
 	margin: 0 0;
 }
 
+.light-grey {
+	background-color: var(--palette-light-grey);
+}
 
