@@ -1,17 +1,24 @@
-.full-height-block {
+.full-height {
 	height: 100vh;
+}
+
+.spacing-block {
+	padding: 0 20px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+.row-layout {
 	display: flex;
 	justify-content: space-between;
-	align-items: center;
-	margin-left: auto;
-	margin-right: auto;
 	max-width: 1000px;
+
 }
 
 @media (max-width: 1000px) {
-	.full-height-block {
+	.row-layout {
 		flex-direction: column; 
-		justify-content: center;
 		align-items: unset;
 	}
 }
@@ -19,4 +26,10 @@
 .grid-content-left {
 	max-width: 600px;
 }
+
+.section-block {
+	min-height: 400px;
+	padding: 20px 20px;
+}
+
 

@@ -1,9 +1,15 @@
 * {
 	font-family: 'Noto Sans', sans-serif;
+	/* Color palette */
+	--palette-white: rgb(255, 255, 255);
+	--palette-light-grey: rgb(244, 244, 244);
 }
 
 body {
-	margin: 0 20px;
+	margin: 0 0;
 }
 
+.light-grey {
+	background-color: var(--palette-light-grey);
+}
 
