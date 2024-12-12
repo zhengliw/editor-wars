@@ -3,6 +3,16 @@
 	/* Color palette */
 	--palette-white: rgb(255, 255, 255);
 	--palette-light-grey: rgb(244, 244, 244);
+	--palette-black: rgb(20, 20, 20);
+	--padding-standard: 20px;
+}
+
+h1, h2, h3, h4, h5, h6 {
+	font-family: 'Noto Sans Mono', monospace;
+}
+
+a {
+	color: inherit;
 }
 
 body {
@@ -11,5 +21,33 @@ body {
 
 .light-grey {
 	background-color: var(--palette-light-grey);
+}
+
+.spacing-block {
+	padding: var(--padding-standard);
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+
+.section-block {
+	min-height: 400px;
+}
+
+.anchor-button {
+	font-family: 'Noto Sans Mono', monospace;
+	font-size: small;
+	text-decoration: unset;
+	display: inline-block;
+	outline: var(--palette-black) solid 3px;
+	padding: 10px;
+	transition: color 250ms, background-color 150ms;
+}
+
+.anchor-button:hover {
+	transition: color 250ms, background-color 150ms;
+	color: var(--palette-white);
+	background-color: var(--palette-black);
 }
 
