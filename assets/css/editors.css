@@ -6,7 +6,6 @@
 
 .editor-selection-card {
 	display: flex;
-	align-items: center;
 	flex-direction: column;
 	width: 300px;
 	margin: 20px 0;
@@ -23,6 +22,7 @@
 	.editor-selection-card {
 		flex-direction: row;
 		width: 100%;
+		align-items: center;
 	}
 }
 
