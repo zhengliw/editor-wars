@@ -1,0 +1,32 @@
+[
+	{
+		"id": "vscode",
+		"name": "Visual Studio Code",
+		"description": "A modern text editor for the 21st century."
+	},
+	{
+		"id": "sublime-text",
+		"name": "Sublime Text",
+		"description": "WIP"
+	},
+	{
+		"id": "notepad-plus-plus",
+		"name": "Notepad++",
+		"description": "Light mode editor"
+	},
+	{
+		"id": "vim",
+		"name": "Vim",
+		"description": "Ein Klassiker unter den terminal-basierten Texteditoren."
+	},
+	{
+		"id": "neovim",
+		"name": "Neovim",
+		"description": "Ein \"hyperextensibler\" Vim-Fork"
+	},
+	{
+		"id": "emacs",
+		"name": "Emacs",
+		"description": "Ein gutes Betriebssystem, aber ein schlechter Editor"
+	}
+]

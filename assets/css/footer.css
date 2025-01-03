@@ -1,0 +1,14 @@
+footer {
+	background-color: var(--palette-light-grey);
+	padding: var(--padding-standard);
+	display: flex;
+	justify-content: space-between;
+}
+
+@media (max-width: 1000px) {
+	footer {
+		justify-content: unset;
+		flex-direction: column;
+	}
+}
+

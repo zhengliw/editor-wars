@@ -1,0 +1,28 @@
+.editor-selection {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-around;
+}
+
+.editor-selection-card {
+	display: flex;
+	align-items: center;
+	flex-direction: column;
+	width: 300px;
+	margin: 20px 0;
+}
+
+.editor-selection-card-img {
+	width: 64px;
+	height: 64px;
+	margin-right: 35px;
+	object-fit: contain;
+}
+
+@media (max-width: 1000px) {
+	.editor-selection-card {
+		flex-direction: row;
+		width: 100%;
+	}
+}
+

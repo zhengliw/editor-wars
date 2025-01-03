@@ -35,6 +35,10 @@ body {
 	min-height: 400px;
 }
 
+.limit-width {
+	width: min(100%, 1000px);
+}
+
 .anchor-button {
 	font-family: 'Noto Sans Mono', monospace;
 	font-size: small;
