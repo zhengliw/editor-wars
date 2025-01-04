@@ -1,11 +1,14 @@
 <header>
-	<a href="{{ site.baseurl }}/"><img class="header-logo"
-		src="{{ site.baseurl }}/assets/images/editor-wars-logo.png"></a>
+	<a href="{{ "/" | relative_url }}"><img class="header-logo"
+		src="{{ "/assets/images/editor-wars-logo.png" | relative_url 
+		     }}"></a>
 	<span class="navigation-block">
-		<a class="navigation-anchor" href="{{ site.baseurl
-			  }}/editors/">Editors-Index</a>
-		<a class="navigation-anchor header-social-logo" href="https://github.com/zhengliw/editor-wars">
-			<img src="{{ site.baseurl }}/assets/images/github-logo.png"
+		<a class="navigation-anchor" href="{{ "/editors/" | relative_url 
+			  }}">Editors-Index</a>
+		<a class="navigation-anchor header-social-logo" 
+			href="https://github.com/zhengliw/editor-wars">
+			<img src="{{ "/assets/images/github-logo.png" | 
+				  relative_url }}"
 			     class="header-social-logo">
 		</a>
 	</span>

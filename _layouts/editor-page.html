@@ -14,11 +14,15 @@ layout: default
 		</div>
 		<div class="grid-content-right">
 			<img class="grid-content-right-image" src="{{ 
-				    site.baseurl 
-				    }}/assets/images/editors/screenshots/{{ 
-				    page.id }}.png" alt="Screenshot für {{ 
-						   site.data.editors[page.id].name 
-						   }}">
+				    "/assets/images/editors/screenshots/" | 
+									 relative_url 
+									 }}{{ 
+									 page.id 
+									 }}.png" 
+							      alt="Screenshot 
+								   für {{ 
+								   site.data.editors[page.id].name 
+								   }}">
 		</div>
 	</div>
 </div>
