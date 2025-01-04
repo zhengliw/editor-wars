@@ -1,13 +1,19 @@
 footer {
+	height: var(--footer-height);
 	background-color: var(--palette-light-grey);
-	padding: var(--padding-standard);
 	display: flex;
+	align-items: center;
 	justify-content: space-between;
+}
+
+footer div {
+	margin: 0 20px;
 }
 
 @media (max-width: 1000px) {
 	footer {
-		justify-content: unset;
+		align-items: start;
+		justify-content: center;
 		flex-direction: column;
 	}
 }

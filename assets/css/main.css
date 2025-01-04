@@ -6,6 +6,7 @@
 	--palette-black: rgb(20, 20, 20);
 	--palette-grey: rgb(200, 200, 200);
 	--padding-standard: 20px;
+	--footer-height: 60px;
 }
 
 h1, h2, h3, h4, h5, h6 {
@@ -22,6 +23,10 @@ q {
 
 body {
 	margin: 0 0;
+}
+
+.content {
+	min-height: calc(100vh - var(--footer-height));
 }
 
 .light-grey {
