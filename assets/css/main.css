@@ -53,8 +53,8 @@ body {
 	margin: var(--padding-standard) 0;
 }
 
-.grid-content-left h1 {
-	margin-top: 0;
+.grid-content-left * {
+	margin: 10px 0;
 }
 
 .grid-content-right {
