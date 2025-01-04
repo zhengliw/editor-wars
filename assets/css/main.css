@@ -15,12 +15,56 @@ a {
 	color: inherit;
 }
 
+q {
+	font-style: italic;	
+}
+
 body {
 	margin: 0 0;
 }
 
 .light-grey {
 	background-color: var(--palette-light-grey);
+}
+
+.row-layout {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	width: min(100%, 1000px);
+}
+
+@media (max-width: 700px) {
+	.row-layout {
+		flex-direction: column; 
+		align-items: unset;
+		width: 100%;
+	}
+}
+
+.grid-content-left {
+	flex-grow: 2;
+	margin: var(--padding-standard) 0;
+}
+
+.grid-content-left h1 {
+	margin-top: 0;
+}
+
+.grid-content-right {
+	max-width: 400px;
+}
+
+@media (max-width: 700px) {
+	.grid-content-right {
+		align-self: center;
+		max-width: 100%;
+	}
+}
+
+.grid-content-right-image {
+	max-width: inherit;
+	height: auto;
 }
 
 .spacing-block {

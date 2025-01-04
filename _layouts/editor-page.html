@@ -1,0 +1,25 @@
+---
+layout: default
+---
+<div class="section-block spacing-block">
+	<div class="row-layout">
+		<div class="grid-content-left">
+			<h1>{{ site.data.editors[page.id].name }}</h1>
+			<q>{{ site.data.editors[page.id].description }}</q>
+		</div>
+		<div class="grid-content-right">
+			<img class="grid-content-right-image" src="{{ 
+				    site.baseurl 
+				    }}/assets/images/editors/screenshots/{{ 
+				    page.id }}.png" alt="Screenshot für {{ 
+						   site.data.editors[page.id].name 
+						   }}">
+		</div>
+	</div>
+</div>
+<div class="spacing-block">
+	<div class="limit-width">
+		{{ content }}
+	</div>
+</div>
+

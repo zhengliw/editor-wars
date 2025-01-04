@@ -13,18 +13,18 @@ title: Editors-Auswahl
 	<div class="limit-width">
 		<div class="editor-selection">
 			{% for editor in site.data.editors %}
-			<div id="editor_{{ editor.id }}" 
+			<div id="editor_{{ editor[0] }}" 
 			     class="editor-selection-card">
 				<img class="editor-selection-card-img" src="{{ 
 					    site.baseurl 
 					    }}/assets/images/editors/logos/{{ 
-					    editor.id }}.png">
+					    editor[0] }}.png">
 				<div>
-				<a href="{{ site.baseurl }}/editors/{{ editor.id 
-					}}.html">
-					<h3>{{ editor.name }}</h3>
+				<a href="{{ site.baseurl }}/editors/{{ editor[0] 
+					 }}.html">
+					<h3>{{ editor[1].name }}</h3>
 				</a>					<p>{{ 
-				editor.description }}</p>
+				editor[1].description }}</p>
 				</div>
 			</div>
 			{% endfor %}

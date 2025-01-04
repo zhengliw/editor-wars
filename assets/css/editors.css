@@ -21,8 +21,13 @@
 @media (max-width: 1000px) {
 	.editor-selection-card {
 		flex-direction: row;
-		width: 100%;
 		align-items: center;
+	}
+}
+
+@media (max-width: 640px) {
+	.editor-selection-card {
+		width: 100%;
 	}
 }
 
