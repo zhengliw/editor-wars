@@ -5,7 +5,12 @@ layout: default
 	<div class="row-layout">
 		<div class="grid-content-left">
 			<h1>{{ site.data.editors[page.id].name }}</h1>
-			<q>{{ site.data.editors[page.id].description }}</q>
+			<div><q>{{ site.data.editors[page.id].description 
+					}}</q></div>
+			<div><a href="{{ 
+				      site.data.editors[page.id].official-webpage 
+				      }}">{{ site.data.editors[page.id].name }} 
+				      holen</a></div>
 		</div>
 		<div class="grid-content-right">
 			<img class="grid-content-right-image" src="{{ 
