@@ -1,0 +1,9 @@
+title: Editor Wars
+email: zhengliw@foxmail.com
+description: >-
+  Die Editor-Kriege, 2024.
+baseurl:
+url: "zhengliw.github.io"
+exclude:
+  - res/
+
