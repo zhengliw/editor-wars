@@ -1,0 +1,23 @@
+<script>
+	// Disallow form submitting since there's no backend
+	document.getElementById("filter-form").addEventListener("submit", 
+		(event) => {
+			event.preventDefault();
+		}
+	);
+
+	// Let Jekyll fill in editor data
+	let editors = {{ site.data.editors | jsonify }};
+
+	function filterByType(type) {
+		for (editor in editors) {
+			element = document.getElementById("editor_" + editor);
+			if (editors[editor].type !== type && type !== "") {
+				element.style.display = "none";
+			} else {
+				element.style.removeProperty("display");
+			}
+		}
+	}
+</script>
+

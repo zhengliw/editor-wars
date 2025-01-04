@@ -31,3 +31,52 @@
 	}
 }
 
+.filter {
+	display: flex;
+	justify-content: center;
+	flex-direction: column;
+	width: min(100%, 600px);
+}
+
+.filter-search-input {
+	margin-bottom: 20px;
+	border: unset;
+	border-bottom: 2px var(--palette-light-grey) solid;
+	transition: border-bottom 250ms;
+}
+
+.filter-search-input:focus {
+	border-bottom: 2px var(--palette-black) solid;
+	outline: none;
+	transition: border-bottom 250ms;
+}
+
+.filter-type {
+	display: inherit;
+	justify-content: center;
+}
+
+.filter-type span {
+	margin: 0 5px;
+}
+
+.filter-type-radio {
+	appearance: none;
+	width: 1em;
+	height: 1em;
+	color: var(--palette-black);
+	outline: 2px var(--palette-black) solid;
+	border: 2px #ffffffff solid;
+	transition: background-color 250ms;
+}
+
+.filter-type-radio:hover {
+	background-color: var(--palette-grey);
+	transition: background-color 150ms;
+}
+
+.filter-type-radio:checked {
+	background-color: var(--palette-black);
+	transition: background-color 250ms;
+}
+

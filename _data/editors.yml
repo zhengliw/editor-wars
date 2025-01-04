@@ -1,18 +1,25 @@
 vscode:
   name: Visual Studio Code
   description: Ein moderner, flexibler und intuitiver Texteditor.
+  type: gui
 sublime-text:
   name: Sublime Text
   description: Minimalistisch, jedoch vielversprechend.
+  type: gui
 notepad-plus-plus:
   name: Notepad++
   description: Ein GUI-Klassiker unter Windows.
+  type: gui
 vim:
   name: Vim
   description: Ein multimodaler Texteditor mit Scripting-Features.
+  type: terminal
 neovim:
   name: Neovim
-  description: Ein moderner, \"hyperextensibler\" Vim-Fork mit Fokus auf Erweiterbarkeit.
+  description: Ein moderner, "hyperextensibler" Vim-Fork mit Fokus auf Erweiterbarkeit.
+  type: terminal
 emacs:
   name: Emacs
   description: Gibt es noch Leute, die Emacs nutzen?
+  type: terminal
+

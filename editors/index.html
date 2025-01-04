@@ -6,8 +6,42 @@ title: Editors-Auswahl
 
 <div class="spacing-block section-block">
 	<div>
-		<h1>Editors zum Auswählen.</h1>
+		<h1>Editors zur Auswahl.</h1>
 	</div>
+</div>
+<div class="spacing-block">
+	<form id="filter-form" class="filter">
+		<input class="filter-search-input" type="text" 
+						   placeholder="Suche...">
+		<div class="filter-type">
+			<span>
+				<input onclick="filterByType(&quot;&quot;);" 
+				       class="filter-type-radio" type="radio" 
+								 name="type-filter" 
+								 id="all" 
+								 value=""
+							     checked>
+				<label for="all">Alle</label>
+			</span>
+			<span>
+				<input 
+				       onclick="filterByType(&quot;terminal&quot;);" 
+				       class="filter-type-radio" type="radio" 
+								 name="type-filter" 
+								 id="terminal" 
+								 value="terminal">
+				<label for="terminal">Terminal</label>
+			</span>
+			<span>
+				<input onclick="filterByType(&quot;gui&quot;);" 
+				       class="filter-type-radio" type="radio" 
+								 name="type-filter" 
+								 id="gui" 
+								 value="gui">
+				<label for="gui">Grafisch</label>
+			</span>
+		</div>
+	</form>
 </div>
 <div class="spacing-block">
 	<div class="limit-width">
@@ -31,4 +65,6 @@ title: Editors-Auswahl
 		</div>
 	</div>
 </div>
+
+{% include editors-js.html %}
 
