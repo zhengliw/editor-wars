@@ -38,14 +38,14 @@
 	width: min(100%, 600px);
 }
 
-.filter-search-input {
+#filter-search-input {
 	margin-bottom: 20px;
 	border: unset;
 	border-bottom: 2px var(--palette-light-grey) solid;
 	transition: border-bottom 250ms;
 }
 
-.filter-search-input:focus {
+#filter-search-input:focus {
 	border-bottom: 2px var(--palette-black) solid;
 	outline: none;
 	transition: border-bottom 250ms;
