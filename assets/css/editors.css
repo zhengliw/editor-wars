@@ -13,7 +13,7 @@
 
 .editor-selection-card-img {
 	width: 64px;
-	height: 64px;
+	height: auto;
 	margin-right: 35px;
 	object-fit: contain;
 }
