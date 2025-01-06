@@ -54,7 +54,7 @@
 
 	document.getElementById("filter-search-input").addEventListener("input", 
 		(e) => {
-			filterByString(document.getElementById("filter-search-input").value);
+			filterByString(document.getElementById("filter-search-input").value.toLowerCase());
 	})
 
 	let url = new URL(window.location.href);
