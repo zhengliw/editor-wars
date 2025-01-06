@@ -13,7 +13,9 @@
 
 .editor-selection-card-img {
 	width: 64px;
-	height: auto;
+	height: 64px;
+	min-width: 64px;
+	min-height: 64px;
 	margin-right: 35px;
 	object-fit: contain;
 }
